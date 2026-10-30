@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: databricks-lakehouse-rt
+    type: yesoreyeram-infinity-datasource
+    access: proxy
+    isDefault: true
+    uid: databricks-lakehouse-rt
+    url: $DATABRICKS_HOST
+    jsonData:
+      allowedHosts:
+        - $DATABRICKS_HOST
+      auth_method: bearerToken
+      oauthPassThru: false
+    secureJsonData:
+      bearerToken: $DATABRICKS_TOKEN
