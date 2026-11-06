@@ -4,6 +4,10 @@ This is a starter project that shows how to query Databricks SQL warehouses, inc
 
 ![Grafana Screenshot](res/grafana_demo.jpg)
 
+#### Interactive live demo
+
+![Interactive live demo](res/grafana_trucks_demo.gif)
+
 ## What's included
 
 | Path | Contents |
